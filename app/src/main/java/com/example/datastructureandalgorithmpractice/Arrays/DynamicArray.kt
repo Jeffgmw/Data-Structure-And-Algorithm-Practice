@@ -72,5 +72,14 @@ fun main(){
     println("array: " + dynamicArray.array().contentToString())
     println("Index 2 item: " + dynamicArray.get(2))
 
+    dynamicArray.replace(1, "Whaat")
+    println("array: " + dynamicArray    .array().contentToString())
+
+    dynamicArray.pop()
+    println("Array: " + dynamicArray.array().contentToString())
+
+    dynamicArray.delete(1)
+    println(" Array: " + dynamicArray.array().contentToString())
+
 
 }
